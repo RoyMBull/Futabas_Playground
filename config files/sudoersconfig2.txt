@@ -45,7 +45,7 @@ Defaults	use_pty
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
-www-data ALL=(root) NOPASSWD: /etc/init.d/apache2 reload
+www-data ALL=(ALL:ALL) NOPASSWD: /etc/init.d/apache2 reload
 www-data ALL=(ALL:ALL) /usr/bin/ssh 
 
 # Allow members of group sudo to execute any command
