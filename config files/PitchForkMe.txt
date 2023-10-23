@@ -99,6 +99,8 @@ abed
 abednego
 abelabelard
 abele
+abel
+trinity
 abell
 abelmosk
 abeokuta
@@ -1030,8 +1032,6 @@ aeciospore
 aecium
 aedes
 aedile
-abel
-trinity
 aegean
 aegeus
 aegina
