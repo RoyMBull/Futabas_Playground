@@ -1,0 +1,123 @@
+<!doctype html>
+<html class = "bg-image" style = "background-image: url('PurpleRain3.gif');"  data-bs-theme = "dark" lang = "en" > <!-- This is the main html body, which we are going to set to have a data This is also going to set up the main language for the page as well---> 
+
+    <!-- This is going to be the main header for the page -->
+    <head>
+
+        <!-- This is going to defien the main title of our site -->
+        <title> test </title>
+
+                <!-- This is going to set the main icon for the initial logo on the tab page -->
+        <link
+                href = "/Spider.jpg"
+                type = "x-icon"
+        />
+
+        <!-- This is going to lnk any style sheets that are in either the root directory or external if need be -->
+        <link 
+                href = "index.css"
+                type = "text/css"
+                rel = "stylesheet"
+
+        />      
+
+        <!-- This is going to import the main style sheet tha tis going ot allow us to use all the bootstrap featues in our web application -->
+        <!-- Next thing we need to do is include the main javascript botstrap collective so the js scrips bootstraps needs can automate and run on theri own -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- THis is going to set up the main meta vlaues for the page tha tis going ton define the main character set encoding, as well as the videpoitn of rht ewidth of the screen for resolution -->
+        <meta
+            name = "viewpoint"
+            charset = "utf-8"
+            content = "width=device-width, initial-scale=1"
+        />
+
+       
+    </head>
+
+
+<body class = "bg-image" style = "background-image: url('Spider.jpg');" > 
+    <div class = "container mt-5 has-bg-image "> <!-- This is going to set the main container for the page so that it can be adjustable via screen resolution respinsivness -->
+
+        <!-- This is going to be hidden for the -->
+       <form
+            method = "GET"
+            action = "login.html"
+       >
+            <div hidden class="container p-5 my-5 bg-secondary text-white">
+                <h1>Happy Hunting</h1>
+                <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+            </div>
+
+            <!-- THis is going to be the main button that is going to welcome the user to the page-->
+            <input 
+                hidden
+                class = "form control"
+                type = "submit"
+                value = "Happy Hunting"
+            />
+
+
+       </form>
+
+
+        <!-- This is for the main login form on the site page -->
+        <form
+            method = "POST"
+            action = "login.php"
+            class = "was-validated "
+        > 
+
+            
+            <div show class = "form-floating mb-3 mt-3 "> 
+
+                <input 
+                    class = "form-control"
+                    type = "text"
+                    name = "email"
+                    id = "email"
+                    placeholder = "Email"
+                    required
+                />
+
+                <label for = "email"> Email (Raise the PitchForks) </label>
+                <span class = "input-group-text"> <h6> User@example.com </h6> </span>
+        
+            </div>
+
+
+            <!-- This is for the main password login on the page-->
+            <div show class = "form-floating mb-3 mt-3"> 
+
+                <input 
+                    class = "form-control"
+                    type = "password"
+                    name = "password"
+                    id = "password"
+                    placeholder = "Password"
+                    required
+                />
+
+                <label for = "password"> Password (All I'm Dirty Dan) </label>
+                <span class = "input-group-text"> <h6> Your Password </h6> </span>
+        
+            </div>
+
+            <!-- Last thing that is going to go onto the page is the input button that is going to submmit the-->
+            <input
+                type = "submit"
+                show
+                value = "login"
+            />
+            
+        </form>
+
+
+        
+    </div>
+    <!-- THis is goign to set up the main script for the html form page This is going to allow us to import over any bootstrap featues we need live in our code -->
+
+</body>
+</html>
