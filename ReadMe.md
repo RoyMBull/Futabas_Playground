@@ -1,4 +1,4 @@
-#Futaba's Playground
+# Futaba's Playground
 This is a custom CTF challenge that I wrote and scripted myself in HTML/CSS/JS and PHP.
 If you wish to enjoy the main CTF challenge I advise for you to
   -> Keep the challenge location hidden from the participant (THIS REPOSITORY)
