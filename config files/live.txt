@@ -1,1 +1,1 @@
-kali ALL=(ALL) /usr/bin/ssh
+kali ALL=(ALL) /usr/bin/vi
