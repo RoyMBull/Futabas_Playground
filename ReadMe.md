@@ -2,7 +2,7 @@
 
 This is a custom CTF challenge that I wrote and scripted myself.
 
-# How to Play?:
+# How to Play?: (DEBIAN ONLY)
 
 This is intended to be run as a server on another system, but you are also free to play it on your main system as well (I don't recommend this as you can install and do whatever as root which can ruin the whole challenge for you)
 
