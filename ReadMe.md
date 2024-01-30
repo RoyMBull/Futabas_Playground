@@ -10,7 +10,7 @@ Much like how hackthebox does things you are free to look at a good chunk of the
 
 # Final Hint
 
-Mr.Dolphine
+Totsugeki
 
 
 
