@@ -8,7 +8,8 @@ This is intended to be run as a server on another system, but you are also free 
 
 Much like how hackthebox does things you are free to look at a good chunk of the files and any if you “happen” to have access to them ;) This doesn’t mean that you’ll be able to complete all the challenges and secure all the flags for completion as I thought of ways to hide or secure the advanced ones further. 
 
-#Final Hint
+# Final Hint
+
 Mr.Dolphine
 
 
