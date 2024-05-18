@@ -28,6 +28,6 @@ There IS, one more flag that you can find, and it's a special one. Rewards for t
 
 It is possible to find this flag early unlocking "**Express Mode"**, allowing you to clear 6 of the main flags in one go, including the one you just found so that you can just do the last ones which are hard in and of itself. I still recommend even if you find this one that you put in the time to solve them legit as it's vital for your growth as a hacker! 
 
-HINT:
+**HINT:**
 
 **Totsugeki**
